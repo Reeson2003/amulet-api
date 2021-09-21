@@ -1,0 +1,8 @@
+game:
+  url: https://amuletdrakona.ru/g.php
+  login: ${LOGIN}
+  password: ${PASSWORD}
+  refresh: 5000
+logging:
+  level:
+    ru.reeson2003: debug

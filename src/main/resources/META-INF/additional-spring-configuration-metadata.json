@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "game.login",
+      "type": "java.lang.String",
+      "description": "Game login."
+    },
+    {
+      "name": "game.password",
+      "type": "java.lang.String",
+      "description": "Game password."
+    },
+    {
+      "name": "game.refresh",
+      "type": "java.lang.String",
+      "description": "Game refresh rate, ms."
+    }
+  ]
+}
