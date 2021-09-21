@@ -1,7 +1,6 @@
 package ru.reeson2003.amulet.state
 
 import org.jsoup.nodes.Document
-import ru.reeson2003.amulet.SEPARATOR
 
 data class Event(val description: String)
 

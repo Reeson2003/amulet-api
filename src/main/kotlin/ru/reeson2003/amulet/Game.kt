@@ -1,12 +1,12 @@
 package ru.reeson2003.amulet
 
 import org.jsoup.Jsoup
-import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.context.annotation.DependsOn
 import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Component
+import ru.reeson2003.amulet.state.State
 import javax.annotation.PostConstruct
 
 @DependsOn("login")
